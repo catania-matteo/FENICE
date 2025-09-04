@@ -9,7 +9,7 @@ setup(
     include_package_data=True,
     install_requires=[
         # point to your forked oemof and branch:
-        "oemof @ git+https://github.com/catania-matteo/oemof.git@fix-for-myproject",
+        "oemof @ git+https://github.com/catania-matteo/oemof-solph.git@fix-for-myproject",
         "pandas>=1.0",
         "numpy>=1.20",
     ],
