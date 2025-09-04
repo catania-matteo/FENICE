@@ -1,0 +1,14 @@
+# Python / project
+venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+*.egg-info/
+# OS
+.DS_Store
+Thumbs.db
+# temporary Office/OneDrive files (do not commit transient Office temp files)
+~$*
+# Ignore local git backups if any
+.git_backup/
