@@ -1,16 +1,15 @@
 # FENICE — Future Energy traNsItioN multI-seCtor modEl
 
 ## Presentation
-**FENICE** (Future Energy traNsItioN multI-seCtor modEl) is a research-grade Python model to represent and optimize multi-sector energy systems.  
-It is designed to model system detail and transition across years using a workflow that couples:
+**FENICE** (Future Energy traNsItioN multI-seCtor modEl) is a bottom-up energy system model, able to investigate long-term scenarios with a multi-annual span, solving the progressive configuration and operation of the system for the objective of minimum cost, under CO2 emission constraints as well as technological constraints. The tool is based on linear programming (LP), and it is implemented on the existing framework oemof-solph . The programming language is Python, the optimization problem is described via pyomo, and it can use both commercial and open-source solvers. Model results provide the optimal design and operation of the multi-sector integrated energy system for the multiple periods identified, which are devised to track the transition from a given system status to an end point featuring particularly relevant constraints.
 
-- **Multi-sector network representation**: electricity, heat, hydrogen, storage and flexible demand modeled as components and commodities in a network.  
+## Features
+- **Sector-coupling**: all the most energy demanding sector are represented (civil, industry and transport) and emissions are accounted for the others (agricolture and waste disposal)
+- **Multi-vector**: electricity, heat, hydrogen, biomass, liquid fuel commodities in a network.  
 - **Temporal aggregation**: a clustering workflow that produces representative time slices to reduce computational cost while preserving key temporal patterns.  
 - **Multi-period studies**: the same model runs for multiple scenario years and configurations to analyse transition pathways.  
 - **Reproducible inputs**: scenario and technology data are provided via structured Excel workbooks so analyses are easy to configure and share.  
 - **Reproducible codebase**: implemented on top of a patched `oemof-solph` fork to include project-specific fixes required by the model.
-
-> Typical use cases: long-term decarbonization scenarios, technology sensitivity studies, hydrogen integration analysis, storage and flexibility assessments.
 
 ---
 
