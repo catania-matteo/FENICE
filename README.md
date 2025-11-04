@@ -5,15 +5,13 @@
 
 ## Features
 - **Sector-coupling**: all the most energy demanding sector are represented (civil, industry and transport) and emissions are accounted for the others (agricolture and waste disposal)
-- **Multi-vector**: electricity, hydrogen, biomass, liquid fuels, natural gas, biomethane.  
+- **Multi-vector**: all the main energy carrier of current and future energy system represented such as electricity, hydrogen, biomass, liquid fuels, natural gas, biomethane.  
 - **Temporal aggregation**: a clustering workflow that produces representative time slices to reduce computational cost while preserving key temporal patterns.  
 - **Multi-period studies**: the model can be optimized on a wide horizon capable to analyse transition pathways.
-- **Multi-node analysis**:
-- **Reproducible inputs**: scenario and technology data are provided via structured Excel workbooks so analyses are easy to configure and share.  
-- **Reproducible codebase**: implemented on top of a patched `oemof-solph` fork to include project-specific fixes required by the model.
+- **Multi-node analysis**: the model is flexible in analysing mono or multi-node energy systems with the possibility to define several energy infrastrutures
 
 ---
 
 ## Cite FENICE
-Please cite FENICE when used in research. Prefer citing an archived release (Zenodo DOI) if available. Example citation formats:
+Please cite FENICE when used an refer it to this preprint https://dx.doi.org/10.2139/ssrn.5302804.
 
