@@ -26,7 +26,7 @@ sys.path.append('C:/Users/Matteo Catania/Desktop/Esempio_kMeans')
 import pickle
 import matplotlib.pyplot as plt
 
-InputData = 'Input-V48.1.xlsx'#'Input-V40.xlsx'
+InputData = 'Input-Italy-20R.xlsx'#'Input-V40.xlsx'
 filename = os.path.join(os.path.dirname(__file__), InputData,)
 xls = pd.ExcelFile(filename)
 
