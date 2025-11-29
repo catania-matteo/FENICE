@@ -13,5 +13,5 @@
 ---
 
 ## Cite FENICE
-Please cite FENICE when used an refer it to this preprint https://dx.doi.org/10.2139/ssrn.5302804.
+Please cite FENICE when used an refer it to this publication [https://dx.doi.org/10.2139/ssrn.5302804](https://doi.org/10.1016/j.enconman.2025.120663).
 
